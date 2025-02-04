@@ -13,7 +13,9 @@ app.use(express.urlencoded({ extended: false }))
 
 // introduce and use the router module
 //mount it to this directory
+
 app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/users', require('./routes/userRoutes'))
 
 app.use(errorHandler)
 
