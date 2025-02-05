@@ -5,12 +5,13 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "Yantong Guo",
   "license": "ISC",
   "dependencies": {
-    "@testing-library/react": "^16.2.0",
+    "@reduxjs/toolkit": "^2.5.1",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^16.4.7",
@@ -18,9 +19,14 @@
     "express-async-handler": "^1.2.0",
     "i": "^0.3.7",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.9.5"
+    "mongoose": "^8.9.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "web-vitals": "^4.2.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "nodemon": "^3.1.9"
   }
 }
