@@ -9,6 +9,6 @@ The frontend is developed with **React and Redux Toolkit**, offering a responsiv
 **Redux Toolkit** is used for global state management, ensuring efficient handling of authentication and goal-related data.
 
 ## Deployment
-The app is deployed on **Heroku**. You can check out the demo here: 
+The app is deployed on **Heroku**. You can check out the demo here: https://goalapp-d9d86461afc1.herokuapp.com/login
 
 (Note: The demo may become inactive if not accessed for a long time.)
